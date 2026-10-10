@@ -48,7 +48,7 @@ public class ProductoController extends HttpServlet {
         } else if (opcion.equals("listar")) {
 
             ProductoDAO productoDAO = new ProductoDAO();
-            List<producto> lista = new ArrayList<>();
+            List<Producto> lista = new ArrayList<>();
             try {
                 lista = productoDAO.obtenerProductos();
                 for (Producto producto : lista) {

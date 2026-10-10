@@ -100,9 +100,9 @@ public class ProductoDAO {
     }
 
     // obtener lista de productos
-    public List<producto> obtenerProductos() throws SQLException {
+    public List<Producto> obtenerProductos() throws SQLException {
         ResultSet resultSet = null;
-        List<producto> listaProductos = new ArrayList<>();
+        List<Producto> listaProductos = new ArrayList<>();
 
         String sql = null;
         estadoOperacion = false;
